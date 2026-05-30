@@ -16,6 +16,10 @@ body {
   min-height: 100vh;
 }
 
+#text {
+  text-align: center;
+}
+
 #main {
   padding-top: 230px;
   padding-bottom: 280px;
@@ -24,4 +28,40 @@ body {
 #button {
   width: 100px;
   height: 40px;
+}
+
+.bg_1 {
+  background-color: white;
+}
+
+.bg_2 {
+  background-color: black;
+}
+.bg_3 {
+  background-color: red;
+}
+.bg_4 {
+  background-color: blue;
+}
+.bg_5 {
+  background-color: green;
+}
+.bg_6 {
+  background-color: yellow;
+}
+.bg_7 {
+  background-color: purple;
+}
+.bg_8 {
+  background-color: pink;
+}
+.bg_9 {
+  background-color: darkblue;
+}
+.bg_10 {
+  background-color: grey;
+}
+
+.white {
+  color: white;
 }

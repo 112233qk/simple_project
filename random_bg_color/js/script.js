@@ -1,28 +1,19 @@
 const button = document.getElementById("button");
+const text = document.getElementById("text");
 
 button.onclick = function () {
   const num = Math.floor(Math.random() * 10) + 1;
+  console.log(`${num}`);
 
-  switch (num) {
-    case 1:
-      break;
-    case 2:
-      break;
-    case 3:
-      break;
-    case 4:
-      break;
-    case 5:
-      break;
-    case 6:
-      break;
-    case 7:
-      break;
-    case 8:
-      break;
-    case 9:
-      break;
-    case 10:
-      break;
+  for (i = 1; i <= 10; i++) {
+    document.body.classList.remove(`bg_${i}`);
+  }
+
+  document.body.classList.add(`bg_${num}`);
+
+  if (num == 2 || num == 9 || num == 7) {
+    text.classList.add("white");
+  } else {
+    text.classList.remove("white");
   }
 };
