@@ -13,14 +13,14 @@
     <div id="main">
       <form id="form">
         <label for="total">Total</label>
-        <input type="number" id="total" name="total" />
+        <input type="number" id="total" name="total" min="0" max="999999" />
         <label for="tip">Tip%</label>
-        <input type="number" id="tip" name="tip" min="0" max="999" />
+        <input type="number" id="tip" name="tip" min="0" max="9999" />
         <button id="submit" type="button">Submit</button>
       </form>
     </div>
 
-    <h1 id="result">your tip will be</h1>
+    <p id="result">your tip will be</p>
     <script src="js/script.js"></script>
   </body>
 </html>

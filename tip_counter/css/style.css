@@ -16,6 +16,16 @@ body {
   min-height: 100vh;
 }
 
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 200px;
+  background-color: rgb(59, 59, 59);
+  border-radius: 25px;
+}
 #form {
   display: flex;
   flex-direction: column;
@@ -24,6 +34,7 @@ body {
   height: fit-content;
   width: fit-content;
   text-align: center;
+  color: white;
 }
 
 #submit {
@@ -45,4 +56,6 @@ body {
 
 #result {
   padding-top: 30px;
+  font-weight: 500;
+  font-size: 25px;
 }
