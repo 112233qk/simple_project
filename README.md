@@ -10,3 +10,4 @@ list of small project to strengthen my fundamental
 - tip_counter - web for calculating tip percentage based on total meal
 - show_hide_password - a password input that can toggle between showing and hiding the text
 - day_night_toggle - a toggle to change web theme
+- simple_counter - a counter with button to increase/decrease and reset numb
