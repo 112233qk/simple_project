@@ -14,4 +14,57 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background-color: rgb(199, 199, 199);
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 120px;
+  min-width: 210px;
+  padding: 10px;
+  margin-top: 20px;
+  border: 3px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgb(100, 100, 100);
+  background-color: rgb(31, 31, 31);
+}
+
+#count {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 7px;
+  color: white;
+}
+
+#button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  width: 170px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: cyan;
+}
+
+#button button {
+  width: 45px;
+  height: 25px;
+  border: 2px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+  animation-duration: 1s;
+}
+
+#button button:active {
+  color: white;
+  background-color: rgb(31, 31, 31);
+  border-color: rgb(255, 255, 255);
 }
