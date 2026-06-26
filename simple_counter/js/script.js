@@ -11,7 +11,7 @@ function counting(amount, error) {
       value += amount;
       count.textContent = String(value);
     } else {
-      window.alert("Exceeding 100 limit");
+      window.alert(`${error}`);
     }
   };
 }
