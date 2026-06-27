@@ -17,6 +17,10 @@ body {
 }
 
 #main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border-radius: 5px;
   padding: 5px;
   margin: 5px;
