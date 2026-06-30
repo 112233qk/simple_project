@@ -15,3 +15,31 @@ body {
   align-items: center;
   min-height: 100vh;
 }
+
+#button {
+  width: 100px;
+  height: 25px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+#main {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 10px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgb(66, 66, 66);
+  background-color: rgb(223, 223, 223);
+}
+
+#main p {
+  font-weight: 500;
+}
+
+#main p.highlighted {
+  font-weight: 700;
+}
