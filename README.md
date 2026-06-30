@@ -11,3 +11,4 @@ list of small project to strengthen my fundamental
 - show_hide_password - a password input that can toggle between showing and hiding the text
 - day_night_toggle - a toggle to change web theme
 - simple_counter - a counter with button to increase/decrease and reset numb
+- random_name_picker - click button and random name will pop up
