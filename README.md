@@ -12,3 +12,4 @@ list of small project to strengthen my fundamental
 - day_night_toggle - a toggle to change web theme
 - simple_counter - a counter with button to increase/decrease and reset numb
 - random_name_picker - click button and random name will pop up
+- button_click_recorder - every time button is click it get recorded with information of when it is click
