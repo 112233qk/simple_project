@@ -13,3 +13,4 @@ list of small project to strengthen my fundamental
 - simple_counter - a counter with button to increase/decrease and reset numb
 - random_name_picker - click button and random name will pop up
 - button_click_recorder - every time button is click it get recorded with information of when it is click
+- password_strength_checker - check the strength of the inputted password
